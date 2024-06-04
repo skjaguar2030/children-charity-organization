@@ -1,0 +1,69 @@
+.logo-in-footer {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  padding: 60px 0;
+//   min-height: 100vh;
+}
+.contact-area {
+  border-bottom: 1px solid #353c46;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-content p {
+  font-size: 15px;
+  margin: 30px 0 60px;
+  position: relative;
+  text-align: center;
+}
+
+.contact-content p::after {
+  background: white;
+  bottom: -30px;
+  content: "";
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+  width: 80%;
+}
+
+.contact-content h6 {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-content span {
+  color: #353c47;
+  margin: 0 10px;
+}
+
+.contact-content img {
+  max-width: 210px;
+}
+
+.donate-btn-footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer,
+footer {
+  background: #058ed9;
+  color: white;
+  display: block;
+}
+
+footer p {
+  padding: 40px 0;
+  text-align: center;
+}
+

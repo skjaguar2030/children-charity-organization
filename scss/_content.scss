@@ -1,0 +1,103 @@
+// .boxes .container{
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .box {
+//     flex: 1;
+//     margin: 20px 10px;
+//     background: #118acf;
+//     color: #fff;
+//     border-radius: 10px;
+//     padding: 15px 20px;
+//     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+// }
+
+// .box i {
+//     margin-right: 10px;
+// }
+
+// something to fix under here
+
+// section{
+//     min-height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+section .container {
+  min-height: 70vh;
+  margin: 100px;
+  display: flex;
+}
+
+// section h2 {
+//     font-size: 40px;
+//     text-align: center;
+//     text-transform: uppercase;
+// }
+
+section .text-card {
+  font-size: 30px;
+  text-align: center;
+  color: #2f2d2e; //special color
+  margin: 20px;
+  padding: 20px;
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.third-section {
+  background-color: #e7ecef; 
+  .container {
+    min-height: 70vh;
+    // background-color: blue;
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease-in;
+
+  &.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+//cards
+.shop {
+  display: grid;
+  grid-template-columns: repeat(3, 323px);
+  gap: 100px;
+  justify-content: center;
+  background-color: #e7ecef;
+  // might change min height
+  min-height: 70vh;
+}
+
+.item {
+  border: 2px solid #fa9500;
+  border-radius: 4px;
+  margin: 100px 0;
+
+    img{
+        // height: 600px;
+        width: 320px;
+    }
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  gap: 10px;
+}
