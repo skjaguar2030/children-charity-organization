@@ -1,35 +1,34 @@
-.grey-bar{
+.top-nav-bar {
   background: #fa9500;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   color: white;
+  fill: white;
   font-size: 17px;
-  font-weight: 700; 
-  width: 100%;
+  font-weight: 700;
 
-  div{
+  div {
     margin: 0px 30px;
     padding: 0px;
   }
-  .icons{
+  .icons {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
-.call{
+.call {
   width: 20px;
   height: 16px;
-  fill: white;
-  margin: 18px 10px 0 30px;
+  margin-left: 20px;
 }
 
-.email{
+.email {
   width: 20px;
   height: 16px;
-  fill: white;
-  margin: 19px 10px 0 60px;
+  margin-left: 20px;
 }
-
 
 header {
   background-color: white;
@@ -48,23 +47,21 @@ header {
       font-size: 18px;
       text-decoration: none;
       font-weight: bold;
+      &:not(:last-child) {
+        padding-right: 1.25rem;
+      }
     }
   }
 
-  .logo {
-    //   font-family: $ubuntu;
-    // height: 100px;
-    width: 7%;
-  }
-
-  .justTesting {
+  .center-donate-btn {
     display: flex;
     align-items: center;
 
     .donate-btn {
+      color: white;
       font-size: 20px;
       font-weight: bold;
-     text-decoration: none; 
+      text-decoration: none;
       border-radius: 5px;
       padding: 8px 30px;
       background: #fa9500;
@@ -75,70 +72,62 @@ header {
     }
   }
 
-  #red {
-    color: red;
-  }
+  // a {
+  //   color: red;
+  //   //   font-family: $poppins;
+  //   font-weight: 500;
+  //   &:not(:last-child) {
+  //     padding-right: 1.25rem;
+  //   }
+  // }
 
-  a {
-    color: white;
-    //   font-family: $poppins;
-    font-weight: 500;
-    &:not(:last-child) {
-      padding-right: 1.25rem;
-    }
-  }
+  //   .fa-brands {
+  //     color: white;
+  //     font-size: 25px;
+  //     padding-left: 1.5625rem;
+  //   }
 
-  .fa-brands {
-    color: white;
-    font-size: 25px;
-    padding-left: 1.5625rem;
-  }
+  //   .fa-instagram {
+  //     color: red;
+  //   }
 
-  .fa-instagram {
-    color: red;
-  }
+  //   .fa-bars {
+  //     color: white;
+  //     font-size: 30px;
 
-  .fa-bars {
-    color: white;
-    font-size: 30px;
+  //     &:hover {
+  //       cursor: pointer;
+  //     }
+  //   }
 
-    &:hover {
-      cursor: pointer;
-    }
-  }
+  //   .fa-xmark {
+  //     float: right;
+  //     margin: 29px 53px 0 0;
+  //     color: red;
+  //     transition: color 300ms ease-in-out;
 
-  .fa-xmark {
-    float: right;
-    margin: 29px 53px 0 0;
-    color: red;
-    transition: color 300ms ease-in-out;
+  //     font-size: 36px;
 
-    font-size: 36px;
+  //     &:hover {
+  //       transform: scale(0.9);
+  //       color: red;
+  //       transition: color 300ms ease-in-out;
+  //       cursor: pointer;
+  //     }
+  //   }
 
-    &:hover {
-      transform: scale(0.9);
-      color: red;
-      transition: color 300ms ease-in-out;
-      cursor: pointer;
-    }
-  }
-}
+  .background-img {
+    min-height: 80vh;
+    background-image: url("../images/home-page/IMG-20240601-WA0009.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
-.first_section {
-  // might change height
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../images/home-page/IMG-20240601-WA0009.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-
-  p {
     font-size: 50px;
     font-weight: bold;
     color: white;
+    text-align: center;
+    padding-top: 180px;
     text-shadow: 1px -1px 0 #058ed9, -1px 2px 1px #058ed9, -2px 4px 1px #058ed9,
       -3px 6px 1px #058ed9, -4px 8px 1px #058ed9, -5px 10px 1px #058ed9,
       -6px 12px 1px #058ed9, -7px 14px 1px #058ed9;

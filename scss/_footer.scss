@@ -5,14 +5,12 @@
   margin-left: auto;
   margin-right: auto;
 }
-.footer {
-  padding: 60px 0;
-//   min-height: 100vh;
-}
-.contact-area {
-  border-bottom: 1px solid #353c46;
-  display: flex;
-  justify-content: center;
+
+.contact-content {
+  background: #058ed9;
+  color: white;
+  padding-top: 60px;
+  
 }
 
 .contact-content p {
@@ -50,20 +48,11 @@
   max-width: 210px;
 }
 
-.donate-btn-footer{
-    display: flex;
-    align-items: center;
-}
-
-.footer,
-footer {
-  background: #058ed9;
-  color: white;
-  display: block;
-}
-
-footer p {
-  padding: 40px 0;
+// .footer,
+.divvv {
   text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #1771a1;
 }
+
 
