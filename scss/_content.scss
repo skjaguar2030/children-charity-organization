@@ -7,9 +7,23 @@ section .container {
   .text-card {
     font-size: 30px;
     text-align: center;
-    color: #2f2d2e; //special color
+    // color: #2f2d2e; //special color
     margin: 20px;
     padding: 20px;
+
+    h2 {
+      font-size: 40px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  .text-card-small {
+    font-size: 19px;
+    text-align: center;
+    // color: #2f2d2e; //special color
+    margin: 0 20px;
+    // padding: 20px;
 
     h2 {
       font-size: 40px;
@@ -38,21 +52,20 @@ section .container {
 //cards
 .shop {
   display: grid;
-  grid-template-columns: repeat(3, 323px);
+  grid-template-columns: repeat(3, 275px);
   gap: 100px;
   justify-content: center;
-  // background-color: #e7ecef;
 }
 
 .item {
-  border: 2px solid #fa9500;
-  border-radius: 4px;
+  border: 3px solid #fa9500;
+  border-radius: 7px;
   margin: 70px 0;
   // just content space around instead of margin top and bottom
 
   img {
-    // height: 600px;
-    width: 320px;
+    width: 270px;
+    height: 262px;
   }
 }
 
@@ -61,16 +74,17 @@ section .container {
   flex-direction: column;
   text-align: center;
   padding: 10px;
-  gap: 10px;
 
-  h3{
+  h5{
     color: #058ed9;
     font-weight: bold;
+    // font-size: 10px;
   }
 
   p{
     text-align: left;
     margin: 0 20px;
+    font-size: 15px;
 
     a{
     text-decoration: none;

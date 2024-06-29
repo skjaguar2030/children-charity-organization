@@ -1,6 +1,7 @@
 @use "header";
 @use "content";
 @use "footer";
+@use "inherit";
 
 html{
     font-size: 100%;
@@ -29,5 +30,7 @@ body{
     margin: 0;
     overflow: auto;
     font-family: 'Poppins', sans-serif;
+    color: #2f2d2e; //special color
+    font-size: 19px;
     line-height: 1.5;
 }
